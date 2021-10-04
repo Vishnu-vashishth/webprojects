@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="digital_clock.js"> -->
+    <link rel="stylesheet" href="digital_clock.css">
+</head>
+<body>
+    <div class="container">
+        <div class="time" >
+            <P id="hours">0</P>
+            <span class="show">Hours</span>
+        </div>
+        <div class="time">
+            <P  id="minutes">0</P>
+            <span class="show">Minutes</span>
+        </div>
+        <div class="time" >
+            <P id="seconds">0</P>
+            <span class="show">seconds</span>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+setInterval(() => {
+    let x= new Date();
+    var h = x.getHours();
+    var m = x.getMinutes();
+    var s = x.getSeconds();
+    hour.innerHTML=h;
+    minute.innerHTML=m;
+    second.innerHTML=s;
+
+ 
+
+}, 1000);
+
+var hour= document.getElementById('hours');
+var minute= document.getElementById('minutes');
+var second= document.getElementById('seconds');
+
+</script>
