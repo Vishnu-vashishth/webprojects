@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="local storage_add data.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="input-box">
+            <span id="heading point">
+                <h2> your message</h2>
+            </span>
+            <input type="text" id="input" placeholder="Write your message.......!">
+            <button id="btn">Submit</button>
+            <span id="heading">Your previous message.......</span>
+            <span id="display">Nothing</span>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script>
+    var btn = document.getElementById("btn");
+    var input = document.getElementById("input");
+    var display = document.getElementById("display");
+    btn.addEventListener('click', () => {
+        localStorage.setItem('msg', JSON.stringify(input.value));
+        display.innerText = JSON.parse(localStorage.getItem('msg'));
+    })
+
+    input.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            //    event.preventDefault();
+            btn.click();
+        }
+    });
+
+</script>
