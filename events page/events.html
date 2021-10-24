@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f0faa7be2e.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark">
+  
+  <!-- navbar  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+
+   
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="s4.png" alt="" width="60" height="55" class="d-inline-block align-text-top">
+          <h3> Satyug Darshan </h3>
+          </a>
+        </div>
+
+  <div class="container-fluid " >
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register Now</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- navbar end -->
+ 
+
+<!-- image slider -->
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="WELCOME.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="vet1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="event5.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- imade slider ends -->
+
+  <!-- cards start -->
+  <div class="container-fluid d-flex flex-sm-row flex-column bg-dark">
+
+    <div class="card m-5 border-0 shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+      <img src="chess.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Chess Competition</h4>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Register Now</a>
+      </div>
+    </div>
+    <div class="card m-5 border-0" style="width: 18rem;">
+      <img src="ludo.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ludo Competition</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Register Now</a>
+      </div>
+    </div>
+    <div class="card m-5 border-0" style="width: 18rem;">
+      <img src="dance.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dance Competion</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Register Now</a>
+      </div>
+    </div>
+    <div class="card m-5 border-0" style="width: 18rem;">
+      <img src="singing.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Singing Competition</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Register Now</a>
+      </div>
+    </div>
+
+   </div>
+   <!-- cards ends -->
+
+   <!-- rule start -->
+
+   <div class="d-flex align-items-center justify-content-center bg-dark my-5"> <h1 class="text-white ">Question and answers</h1></div>
+   <div class="accordion min-vh-50  bg-dark my-lg-5 "  id="accordionExample ">
+    
+    <div class="accordion-item w-75 m-auto ">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          How it works?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item w-75 m-auto">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Question 2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item w-75 m-auto">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Question 3
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item w-75  m-auto">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         Question 4
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="accordion-item w-75  m-auto">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         Question 5
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item w-75  m-auto">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+         Question 6
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- rules ends -->
+
+
+   <!-- photo gallery -->
+
+   <div id="carouselExampleFade" class="carousel slide carousel-fade my-5  " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active img-fluid">
+        <img src="event4.jpg" class="d-block w-100  " alt="...">
+      </div>
+      <div class="carousel-item img-fluid ">
+        <img src="event11.jfif" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item img-fluid">
+        <img src="Event3.jpg" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item img-fluid">
+        <img src="event4.jpg" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item img-fluid">
+        <img src="event5.jpg" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item img-fluid">
+        <img src="Event6.jpg" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item img-fluid">
+        <img src="Event7.jpg" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item img-fluid">
+        <img src="event8.jpg" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item img-fluid">
+        <img src="event9.jpg" class="d-block w-100 " alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+   <!-- photo gallery ends -->
+  
+   <!-- contact us  -->
+   <div class="my-10 d-flex justify-content-center align-items-center text-white "><h1>Contact Us</h1></div>
+   <form class="w-50 min-vh-75 m-auto my-5 text-white">
+    <div class="mb-3">
+      <label for="example InputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Message</label>
+     <textarea name="" id="" class="w-100 min-vh-75"></textarea>
+    </div>
+    <!-- <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div> -->
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+    <!-- contact us end -->
+
+    <!-- footer -->
+   
+      <div class="container-fluid d-flex justify-content-center align-items-center mb-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.634957060745!2d77.39833841491848!3d28.430269782498087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc2c1cf6e02c7%3A0x979023c9894a7836!2sSatyug%20Darshan%20Institute%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1635091741003!5m2!1sen!2sin" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+
+      <hr class="text-white">
+      <div class="container-fluid d-flex justify-content-center align-items-center  mb-5 " style="font-size: 2rem;">
+       <a href="https://github.com/Vishnu-vashishth" target="_blank"  class="text-white-50 m-3 " > <i class="fab fa-github  "></i></a>
+       <a href="https://linkedin.com" target="_blank"  class="text-white-50 m-3 "> <i class="fab fa-linkedin-in"></i></a>
+       <a href="https://facebook.com" target="_blank"  class="text-white-50 m-3 "> <i class="fab fa-facebook-square"></i></a>
+       <a href="https://twitter.com" target="_blank"  class="text-white-50 m-3 "> <i class="fab fa-twitter-square"></i></a>
+       <a href="https://wa.me/qr/J4Y34VO4UHJIA1"  target="_blank" class="text-white-50 m-3 "> <i class="fab fa-whatsapp-square"></i></a>
+
+      </div>
+
+    <!-- fotter ends -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+</html>
